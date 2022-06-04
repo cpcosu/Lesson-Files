@@ -7,7 +7,7 @@ These guides assume that you already know the basics of how to write code. If yo
 ## Languages
 * Python - Easiest lanuage to learn. Short and readable code. Runs slower than the other languages but is still suitable for competitive programming.
 * Java - Language taught at Ohio State. Faster than Python but less readable.
-* C++ - The prefferred language of most competitive programmers. Runs fast but difficult for beginners.
+* C++ - The preferred language of most competitive programmers. Runs fast but difficult for beginners.
 
 ### Environment
 You can write code in whatever environment you want, although the most popular are VSCode, Eclipse, and Vim. 
