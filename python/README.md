@@ -10,6 +10,7 @@
   * [List of Numbers From Line](#list-of-numbers-from-line)
   * [Multiple Variables From One Line](#multiple-variables-from-one-line)
   * [Input Until End Of File](#input-until-end-of-file)
+  * [List From Multiple Lines](#list-from-multiple-lines)
 ## Introduction
 This guide aims to provide those who are new to competitive programming with the knowledge necessary to get started. Only a basic knowledge of python is necessary to get started. If you have no knowledge, [tutorialspoint](https://www.tutorialspoint.com/python3/index.htm) and [codecademy](https://www.codecademy.com/learn/learn-python) are great places to get started, among others. Python 3 is used here, but Python 2 is very similar and knowledge can be transferred easily.
 
