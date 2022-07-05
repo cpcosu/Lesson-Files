@@ -84,3 +84,11 @@ while True:
     break
 ```
 
+### List From Multiple Lines
+Sometimes, problem descriptions [(such as this one)](https://open.kattis.com/problems/abridgedreading) will say "These values will be on one or more lines". The problem will have previously given a number of items to be expected in the list, so you just need to check if you need to read another line before moving on. In the previously referenced problem you would use:
+```python
+desired_length = 10
+my_list = []
+while len(my_list) != desired_length:
+  my_list += [int(i) for i in input().split()]
+```
