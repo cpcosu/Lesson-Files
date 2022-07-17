@@ -15,7 +15,7 @@
 ## Introduction
 Here's a basic introduction of what you need to know to get started with competitive programming in C++. 
 This intro assumes you have some basic experience programming in C/C++. However, if you're at 
-square 1, tutorialspoint[https://www.tutorialspoint.com/cplusplus/index.htm] and codeacademy[https://www.codecademy.com/learn/learn-c-plus-plus] have good content to start off with.
+square 1, tutorialspoint[https://www.tutorialspoint.com/cplusplus/index.htm] and [codeacademy](https://www.codecademy.com/learn/learn-c-plus-plus) have good content to start off with.
 
 ## Environment
 All you need to run C++ is a text editor and a compiler. However, we'd recommend using an IDE to streamline the process. 
