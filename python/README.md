@@ -10,6 +10,7 @@
   * [List of Numbers From Line](#list-of-numbers-from-line)
   * [Multiple Variables From One Line](#multiple-variables-from-one-line)
   * [Input Until End Of File](#input-until-end-of-file)
+  * [List From Multiple Lines](#list-from-multiple-lines)
 ## Introduction
 This guide aims to provide those who are new to competitive programming with the knowledge necessary to get started. Only a basic knowledge of python is necessary to get started. If you have no knowledge, [tutorialspoint](https://www.tutorialspoint.com/python3/index.htm) and [codecademy](https://www.codecademy.com/learn/learn-python) are great places to get started, among others. Python 3 is used here, but Python 2 is very similar and knowledge can be transferred easily.
 
@@ -84,3 +85,11 @@ while True:
     break
 ```
 
+### List From Multiple Lines
+Sometimes, problem descriptions [(such as this one)](https://open.kattis.com/problems/abridgedreading) will say "These values will be on one or more lines". The problem will have previously given a number of items to be expected in the list, so you just need to check if you need to read another line before moving on. In the previously referenced problem you would use:
+```python
+desired_length = 10
+my_list = []
+while len(my_list) != desired_length:
+  my_list += [int(i) for i in input().split()]
+```

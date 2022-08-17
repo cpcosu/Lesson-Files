@@ -29,3 +29,15 @@ To add an item to a dictionary, you can use the format
 my_dict[key] = value;
 ```
 
+## Sets
+Sets are a collection of items, in which no item can be added twice. They are created with curly brackets like so:
+```
+my_set = {"item1", "item2"}
+```
+You can add items with `.add(item)`, remove with `.remove(item)` and check if an item is in the set with `if item in my_set`.
+
+## Tuples
+Tuples are nearly identical to lists, except they cannot be changed after they are initialized. They are created with parentheses:
+```
+my_tuple = (0, 3, 1, 2)
+```
