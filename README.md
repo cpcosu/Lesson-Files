@@ -2,7 +2,9 @@
 Here you will find resources to help you get started with Competitive Programming. Created by the Competitive Programming Club at Ohio State.
 
 ## Getting Started
-These guides assume that you already know the basics of how to write code. If you don't, you can find many basic tutorials free online. Python is the easiest to learn with short and easy to understand code, but if you are at Ohio State, you might want to learn Java as it is the language used in most courses. Guides for Python, Java, and C++ are provided in the folders of this repository.
+These guides assume that you already know the basics of how to write code. If you don't, you can find many basic tutorials free online. 
+Python is the easiest to learn with short and easy to understand code, but if you are at Ohio State, you might want to learn Java as it is 
+the language used in most courses. Guides for Python, Java, and C++ are provided in the folders of this repository.
 
 ## Languages
 * Python - Easiest lanuage to learn. Short and readable code. Runs slower than the other languages but is still suitable for competitive programming.
@@ -18,11 +20,16 @@ You can write code in whatever environment you want, although the most popular a
 [GeeksforGeeks Competitive Programming - A Complete Guide](https://www.geeksforgeeks.org/competitive-programming-a-complete-guide/): An online syllabus explaining standard topics in competitive programming.
 
 ## CP Courses
-We do not have a competitive programming course at OSU but **CSE 2221** and **CSE 2231** teaches you the fundamentals of programming, how to receive input and output, and data structures. **CSE 2321** and **CSE 2331** teaches data structures and algorithms. After those courses, you may find **CSE 4256** and **CSE 4252** helpful in learning Python and C++. You may also find **Math 3345** helpful in learning logic, set theory, and number theory. 
+We do not have a competitive programming course at OSU but **CSE 2221** and **CSE 2231** teaches you the fundamentals of programming, 
+how to receive input and output, and data structures. **CSE 2321** and **CSE 2331** teaches data structures and algorithms. 
+**CSE 6331** (Graduate) goes in depth on topics taught in Foundations I and II. After those courses, you may find **CSE 4256** and 
+**CSE 4252** helpful in learning Python and C++. You may also find **Math 3345** helpful in learning logic, set theory, and number theory. 
 
 [Purdue University's CP Courses](https://www.cs.purdue.edu/homes/ninghui/courses/CPi/) is taught by Ninghui Li, Gustavo Rodriguez-Rivera, and students of the ICPC teams
 
 [Carnegie Mellon University's 15-295](https://contest.cs.cmu.edu/295/) is taught by Danny Sleator
+
+[Baylor University's CSI 4144](https://cs.baylor.edu/~hamerly/courses/4144_22s/) is taught by Greg Hamerly
 
 ## Practice Websites
 There are many sites that you can use to practice problems and each have their own benefits. Here are a few that we recommend but if you continuously solve problems that are just out of your comfort zone, you will improve!
