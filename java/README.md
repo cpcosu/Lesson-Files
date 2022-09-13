@@ -9,6 +9,7 @@
 * [Input](#input)
   * [Single Number Input](#single-number-input)
   * [List of Strings From Line](#list-of-strings-from-line)
+  * [Matrix of Values](#matrix-of-values)
 
 ## Introduction
 This guide aims to provide those who are new to competitive programming with the knowledge necessary to get started. Only a basic knowledge of java is necessary to get started. If you have no knowledge, [tutorialspoint](https://www.tutorialspoint.com/java/index.htm) and [w3schools](https://www.w3schools.com/java/) are great places to get started, among others. This tutorial can be used across all Java versions and this tutorial is not meant to go into the differences across versions. 
@@ -69,3 +70,29 @@ System.out.println(line[2]); // mouse
 ```
 
 `Scanner.nextLine()` will read up to a new line and `String.split(String regex)` will split the string around any matches of the given regular expression. In most cases, you will only need to split on `" "` and it will produce an  array of Strings. If you want to split by other characters such as commas, you can pass that as an argument to split, like `split(",")`.
+
+### Matrix of Values
+Say you are given a matrix of integers in the format:
+```
+3 2 4 5
+2 9 7 1
+0 6 5 4
+```
+Most likely, the size of the matrix will vary and you will be given the number of rows and columns first.
+To read this, we could use the code:
+```java
+Scanner in = new Scanner(System.in);
+
+int row = in.nextInt();
+int col = in.nextInt();
+
+int[][] matrix = new int[row][col];
+
+for (int i = 0; i < row; i++) {
+    for (int j = 0; j < col; j++) {
+        matrix[i][j] = in.nextInt();
+    }
+}
+```
+If provided other numeric values, you can use another method (such as nextDouble()) in place of nextInt().
+For non-numeric elements, you can read in each row using nextLine() and use the split method discussed above to separate the elements.
