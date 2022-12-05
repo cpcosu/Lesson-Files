@@ -4,6 +4,7 @@ Python's built in data-structures are
 * Dictionaries
 * Sets
 * Tuples
+
 Beyond this, there are container types which must be imported from the collections library, which comes with python. You can import it by adding
 ```
 from collections import <desired-structure>
